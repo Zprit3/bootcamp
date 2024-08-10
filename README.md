@@ -22,3 +22,6 @@ Cada carpeta dentro del repositorio corresponde a un módulo o unidad específic
 - **Ejercicios**: Tareas individuales para practicar conceptos específicos.
 - **Proyectos**: Aplicaciones completas que integran varias tecnologías y conceptos aprendidos.
 - **Recursos**: Material adicional y referencias útiles para completar las tareas.
+
+## Registro de avance
+- Introducción>Estructuras HTML>CSS>Javascript>Jquery(Actual)
