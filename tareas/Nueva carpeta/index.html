@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario - Isaac Mora</title>
+    <style>
+      h1 {
+        text-align: center;
+      }
+
+      form {
+        max-width: 300px;
+        margin: 0 auto;
+      }
+
+      label {
+        display: block;
+        margin-top: 10px;
+        font-weight: bold;
+      }
+
+      input[type="text"],
+      input[type="email"],
+      input[type="date"],
+      input[type="time"],
+      input[type="submit"] {
+        width: 100%;
+        padding: 5px;
+        margin-top: 5px;
+        box-sizing: border-box;
+      }
+
+      datalist {
+        margin-top: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>FORMULARIO</h1>
+    <form action="#" method="post">
+      <label for="nombre">NOMBRE</label>
+      <input type="text" id="nombre" name="nombre" />
+
+      <label for="direccion">DIRECCIÓN</label>
+      <input type="text" id="direccion" name="direccion" />
+
+      <label for="especialidad">ESPECIALIDAD MÉDICA</label>
+      <!--Segun lo que se lee en Modulo 2, Sesion 2, Ejemplos Sesion 2, 
+      los elementos desplegados deberian ser "datalist" y 
+      no "select" segun la imagen que se nos muestra como mockup -->
+      <input list="especialidades" id="especialidad" name="especialidad" />
+      <datalist id="especialidades">
+        <option value="MEDICINA INTERNA"></option>
+        <option value="MEDICINA GENERAL"></option>
+        <option value="TRAUMATOLOGIA"></option>
+        <option value="NUTRICIONISTA"></option>
+      </datalist>
+
+      <label for="fecha">FECHA</label>
+      <input type="date" id="fecha" name="fecha" />
+
+      <label for="hora">HORA</label>
+      <input type="time" id="hora" name="hora" />
+
+      <label for="correo">CORREO</label>
+      <input type="email" id="correo" name="correo" />
+
+      <input type="submit" value="CONFIRMAR" />
+    </form>
+  </body>
+</html>

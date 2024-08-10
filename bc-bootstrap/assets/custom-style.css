@@ -1,0 +1,16 @@
+.btn-primary-mod{
+    background-color: #FFDFD6;
+    border-color: #FFDFD6;
+    color: black;
+}
+
+.btn-primary-mod:hover{
+    background-color: #E3A5C7;
+    border-color: #E3A5C7;
+    color: black;
+}
+
+.btn-primary-mod:active{
+    background-color: #FFDFD6;
+    border-color: #E3A5C7;
+}

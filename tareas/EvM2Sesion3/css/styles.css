@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+}
+
+.primary-btn, .secondary-btn, .success-btn, .danger-btn {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px; 
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); 
+}
+
+.primary-btn {
+    background-color: #3498db;
+}
+
+.secondary-btn {
+    background-color: #2ecc71;
+}
+
+.success-btn {
+    background-color: #27ae60;
+}
+
+.danger-btn {
+    background-color: #e74c3c;
+}
+
+
+
