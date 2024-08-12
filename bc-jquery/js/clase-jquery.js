@@ -42,6 +42,16 @@ $(document).ready(function(){
         })
         $('#dinamic-list').append(nuevoElemento)
     })
+
+    $('#leer-post').click(function (){
+        //ajax
+        $.get("https://jsonplaceholder.typicode.com/posts",
+            function (data) {
+                
+            },
+            
+        );
+    })
 })
 
 
