@@ -1,4 +1,5 @@
 # Bootcamp Fullstack Python
+
 ## Repositorio personal de prácticas
 
 Bienvenido/a a mi repositorio de tareas de práctica del bootcamp Fullstack con Python y Django. Aquí encontrarás una colección de ejercicios y proyectos desarrollados a lo largo del curso, que cubren desde la configuración básica hasta el desarrollo de aplicaciones web completas.
@@ -24,4 +25,5 @@ Cada carpeta dentro del repositorio corresponde a un módulo o unidad específic
 - **Recursos**: Material adicional y referencias útiles para completar las tareas.
 
 ## Registro de avance
-- Introducción>Estructuras HTML>CSS>Javascript>Jquery(Actual)
+
+- Introducción>Estructuras HTML>CSS>Bootstrap>Javascript>Jquery>Ajax>GIT(actual)

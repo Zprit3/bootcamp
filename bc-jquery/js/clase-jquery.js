@@ -43,15 +43,56 @@ $(document).ready(function(){
         $('#dinamic-list').append(nuevoElemento)
     })
 
-    $('#leer-post').click(function (){
-        //ajax
-        $.get("https://jsonplaceholder.typicode.com/posts",
-            function (data) {
-                
-            },
-            
-        );
+    $('#leer-post').click(function() {
+        // AJAX
+        $.get("https://jsonplaceholder.typicode.com/posts", function(data) {
+          let listData = '<ul class="list-group">';
+      
+          data.forEach(function(post) {
+            const title = post.title;
+            const body = post.body; 
+      
+            listData += `<li class="list-group-item">`;
+            listData += `<h2>${title}</h2>`; 
+            listData += `<p>${body}</p>`;
+      
+            listData += '</li>';
+          });
+      
+          listData += '</ul>';
+      
+          $('#list-data').html(listData);
+        });
+      }
+    );
+
+    $('#crear-post').click(function(){
+        $.post('https://jsonplaceholder.typicode.com/posts',{
+
+            title: $('#title').val(),
+            body: $('#body').val(),
+            userId: 1,
+        }, function(data){
+            $('#title').val('')
+            $('#body').val('')
+            Swal.fire({
+                position: "top-end",
+                icon: "success",
+                title: "Post creado exitosamente",
+                showConfirmButton: false,
+                timer: 2500
+              });
+        })
+        .fail(function (error){
+            Swal.fire({
+                title: 'Error!',
+                text: 'No se ha creado el post, intente mas tarde',
+                icon: 'error',
+                confirmButtonText: 'Cool'
+              })
+        })
     })
+
 })
 
 
