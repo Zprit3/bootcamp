@@ -26,4 +26,4 @@ Cada carpeta dentro del repositorio corresponde a un módulo o unidad específic
 
 ## Registro de avance
 
-- Introducción>Estructuras HTML>CSS>Bootstrap>Javascript>Jquery>Ajax>GIT(actual)
+- Introducción>Estructuras HTML>CSS>Bootstrap>Javascript>Jquery>Ajax>GIT>Python(actual)
