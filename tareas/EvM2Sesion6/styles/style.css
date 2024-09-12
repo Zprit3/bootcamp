@@ -1,0 +1,15 @@
+body {
+    font-family: Verdana, sans-serif;
+  }
+  
+  .navbar-brand {
+    font-family: Gill Sans, sans-serif;
+  }
+  
+  .bg-info {
+    background-color: #62DAD3;
+  }
+  
+  form {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
